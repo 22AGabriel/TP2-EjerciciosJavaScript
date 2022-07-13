@@ -10,9 +10,6 @@ while (i < frase.length) {
     frase.charAt(i) === "o" || frase.charAt(i) === "ó" || frase.charAt(i) === "u" || 
     frase.charAt(i) === "ú") {
         cantidadVocales++
-        i++
-    } else {
-        i++
     }
 }
 

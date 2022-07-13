@@ -9,10 +9,8 @@ while (i < frase.length) {
     frase.charAt(i) === "o" || frase.charAt(i) === "ó" || frase.charAt(i) === "u" || 
     frase.charAt(i) === "ú") {
         document.write(frase.charAt(i))
-        i++
-    } else {
-        i++
     }
+    i++
 }
 
 // for(let i = 0 ; i < frase.length ; i++){
