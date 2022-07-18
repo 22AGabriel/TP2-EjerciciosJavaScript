@@ -1,8 +1,8 @@
 let resultado = 0
 let indice = 1
 
-while(confirm("¿ingresar número?") === true){
-    numero = parseInt(prompt("ingrese número"));
+do{
+    let numero = parseInt(prompt("ingrese un número"));
     if(numero >= 0){
         resultado = resultado + numero
         document.write(indice + "° número ingresado: " + numero);
@@ -11,5 +11,5 @@ while(confirm("¿ingresar número?") === true){
     } else {
         alert("el carácter ingresado no es un número");
     }
-}
+} while (confirm("¿Desea ingresar otro número?"))
 document.write("Resultado de la suma: " + resultado);
